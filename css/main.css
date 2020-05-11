@@ -17,6 +17,10 @@ header {
 
 /* Sezione principale */
 
+body {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .sezioneprima {
   margin: 15px 15px;
 }
