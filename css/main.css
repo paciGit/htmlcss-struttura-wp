@@ -1,0 +1,66 @@
+/* Corpo pagina */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Intestazione */
+
+header {
+  height: 170px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #a58e4c;
+}
+
+/* Sezione principale */
+
+.sezioneprima {
+  margin: 15px 15px;
+}
+
+.sezioneprima::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Sottosezioni (principale) */
+
+.sinistra, .centro, .destra {
+  float: left;
+  width: 30%;
+}
+
+.sinistra {
+  /* DEBUG: */
+  height: 280px;
+  background-color: #779653;
+}
+
+.destra-uno, .destra-due {
+    /* DEBUG: */
+  height: 170px;
+  background-color: #779653;
+}
+
+.destra-uno {
+  margin-bottom: 10px;
+}
+
+.centro {
+  margin: 0 5%;
+  /* DEBUG: */
+  height: 380px;
+  background-color: #945268;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: #ab926f;
+}
